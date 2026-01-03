@@ -32,7 +32,7 @@ SOIL_OFF = 75
 # ===============================
 # SENSOR
 # ===============================
-dht = adafruit_dht.DHT22(board.D22)
+
 
 i2c = busio.I2C(board.SCL, board.SDA)
 ads = ADS1115(i2c)
